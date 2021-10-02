@@ -239,7 +239,7 @@ img {
 
 form input.inp{
     border: 1px solid #dddddd;
-    color: #222222;
+    color: #6c757d;
     font-size: 17px;
     height: 60px;
     padding-left: 26px;
@@ -924,6 +924,7 @@ form input.inp{
     font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
+    position: relative;
 }
 
 .modal-body button.close{
