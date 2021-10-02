@@ -98,6 +98,34 @@
         }
     });
 
+    //Feature SLIDER ACTIVE CODE
+    $('.feature-slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        smartSpeed: 2000,
+        autoplay: false,
+        responsiveClass: true,
+        autoplayTimeout: 4000,
+        // navText: ['<i class="fas fa-caret-left" aria-hidden="true"></i>','<i class="fas fa-caret-right" aria-hidden="true"></i>'],
+        responsive: {
+            0: {
+                items: 1,
+                nav: false
+            },
+            576: {
+                items: 1
+            },
+            768: {
+                items: 1
+            },
+            992: {
+                items: 1
+            }
+        }
+    });
+
     //Testimonials SLIDER ACTIVE CODE
             $('.testi-slider.owl-carousel').owlCarousel({
                 loop: true,

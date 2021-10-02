@@ -153,6 +153,7 @@ img {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 500;
+    transition: all .3s ease;
 }
 
 /* Banner section */
@@ -229,6 +230,7 @@ img {
     letter-spacing: 2px;
     font-weight: 500;
     width: 100%;
+    transition: all .3s ease;
 } 
 
 form input.inp{
@@ -373,6 +375,16 @@ form input.inp{
     color: #6e7681;
 }
 
+.adrenox-slider .owl-nav [class*=owl-]:hover{
+    background: #3a80ff !important;
+    color: #fff !important;
+    border: #3a80ff !important;
+}
+
+.adrenox-slider .owl-nav [class*=owl-]:hover span{
+    color: #fff !important;
+}
+
 .adrenox-btn{
     margin-top: 75px;
 }
@@ -387,6 +399,7 @@ form input.inp{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
+    transition: all .3s ease;
 }
 
 /* Highlights area */
@@ -462,6 +475,16 @@ form input.inp{
     color: #fff;
 }
 
+.highlight-slider .owl-nav [class*=owl-]:hover{
+    background: #3a80ff !important;
+    color: #fff !important;
+    border: #3a80ff !important;
+}
+
+.highlight-slider .owl-nav [class*=owl-]:hover svg{
+    color: #fff !important;
+}
+
 
 /* Variants Area */
 .variants-area{
@@ -499,6 +522,7 @@ form input.inp{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
+    transition: all .3s ease;
 }
 
 .img-variant{
@@ -512,7 +536,7 @@ form input.inp{
     background: #fff;
     max-width: 500px;
     position: absolute;
-    right: -100px;
+    right: -150px;
 }
 
 .variant-head{
@@ -528,7 +552,7 @@ form input.inp{
 }
 
 .variant-text{
-    padding: 40px 35px 60px;
+    padding: 25px 35px 60px;
 }
 
 .variant-text-head{
@@ -546,52 +570,256 @@ form input.inp{
     font-weight: 700;
     color: #000332;
     max-width: 157px;
+    font-size: 30px;
 }
 
 .head-price{
     flex: 0 0 50%;
+    padding-left: 70px;
 }
 
 .head-price h4{
     color: #000332;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
 }
 
+.head-price h4 span{
+    font-size: 25px;
+}
 
+.variant-sub-text h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #051137;
+    margin-bottom: 5px;
+}
 
+.variant-sub-text p{
+    color: #051137;
+    font-size: 18px;
+}
+
+.variant-sub-text .transmission,
+.variant-sub-text .seating,
+.variant-sub-text .features{
+    margin-bottom: 30px;
+}
+
+.variant-foot p{
+    color: #051137;
+}
+
+.variant-slider .owl-nav{
+    display: block !important;
+    position: absolute;
+    bottom: -25px;
+    right: 85px;
+}
+
+.variant-slider .owl-nav button{
+    width: 55px;
+    height: 60px;
+    margin-right: 10px;
+    background: #3a80ff !important;
+}
+
+.variant-slider .owl-nav button span {
+    font-size: 50px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.variant-slider .owl-nav [class*=owl-]:hover{
+    background: #051137 !important;
+    color: #fff !important;
+    border: #051137 !important;
+}
+
+.variant-slider .owl-nav [class*=owl-]:hover span{
+    color: #fff !important;
+}
+
+/* Features Area */
+.feature-head h2{
+    color: #051137;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+
+.feature-head{
+    margin-bottom: 40px;
+}
+
+.feature-box{
+    background: #10155c;
+    padding: 90px 60px 90px 40px;
+}
+
+.fea-img{
+    margin-bottom: 20px;
+}
+
+.fea-content .head h5{
+    color: #051137;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.fea-content .para p{
+    color: #051137bf;
+    font-size: 17px;
+    max-width: 550px;
+    font-weight: 500;
+}
+
+.feature-slider .owl-nav{
+    display: block !important;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.feature-slider .owl-nav button{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background: #10155c !important;
+}
+
+.feature-slider .owl-nav button span {
+    font-size: 45px;
+    color: #fff;
+    line-height: 45px;
+    font-weight: 300;
+}
+
+.feature-slider .owl-nav [class*=owl-]:hover{
+    background: #3a80ff !important;
+    border: #3a80ff !important;
+}
+
+.feature-slider .owl-nav [class*=owl-]:hover span{
+    color: #fff !important;
+}
+
+.nav-tabs{
+    border-bottom: none;
+    flex-direction: column;
+}
+
+.nav-tabs li{
+    border-bottom: 1px solid #3a80ff;
+}
+
+.nav-tabs li:last-child{
+    border-bottom: none;
+}
+
+.nav-tabs li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding: 1.5rem 0;
+}
+
+.nav-tabs li a.active{
+    color: #ed695a !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+.nav-tabs li a:hover{
+    border: none !important;
+    color: #ed695a !important;
+}
 
 
 /* Footer */
 .footer-bg{
-    background-color: #131418 !important;
+    background-color: #051137 !important;
+    padding: 50px 0;
+}
+
+.footer-bottom{
+    background: #020920;
 }
 
 .copyright-area{
     padding: 30px 0px;
     width: 100%;
-    text-align: center;
 }
 
 .copyright-area p{
-    color: #ddd;
+    color: #767c90;
+    font-size: 16px;
 }
 
 .copyright-area a{
-    color: rgba(255,255,255,.8);
+    color: #767c90;
 }
 
 .copyright-area a img{
     max-width: 100px;
 }
 
-.footer-btn{
-    padding: 30px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contact-area{
+    margin-bottom: 40px;
+    position: relative;
+    max-width: 300px;
+}
+
+.contact-area::before{
+    position: absolute;
+    content: "";
+    background: #3a80ff;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: -20px;
+}
+
+.contact-area p,
+.contact-area a,
+.contact-support p,
+.contact-support a{
+    color: #ffffffd1;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.contact-support p a{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.contact-support a:hover,
+.contact-area a:hover{
+    color: #ed695a !important;
 }
 
 .footer-btn a{
-    background: #ed695a;
+    background: linear-gradient(90deg, rgba(3,109,208,1) 0%, rgba(21,160,218,1) 35%, rgba(155,24,245,1) 100%);
+    color: #fff;
+    padding: 16px 40px;
+    text-shadow: 6px 6px 10px rgb(51 51 51);
+    border-radius: 8px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: all .3s ease;
+}
+
+.contact-footer{
+    padding-left: 35px;
 }
 
 /* Popup */
@@ -613,13 +841,14 @@ form input.inp{
     border: 0;
     padding: 0;
     border-radius: 0;
+    display: flex;
 }
 
 .modal-left{
     width: 50%;
     float: left;
     height: 480px;
-    background: url(../img/banner/hero-5-img.png) center no-repeat;
+    background: url(../images/modal.jpg) center no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -638,7 +867,7 @@ form input.inp{
 .modal-right{
     width: 50%;
     float: left;
-    height: 480px;
+    /* height: 480px; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -650,12 +879,17 @@ form input.inp{
 
 .modal-right form{
     width: 100%;
+    margin-top: 40px;
 }
 
 .modal-right form .form-group{
     width: 100%;
     float: left;
     margin-bottom: 20px;
+}
+
+.modal-right form .form-group.form-group-last{
+    margin-bottom: 50px;
 }
 
 .modal-right input{
@@ -689,6 +923,7 @@ form input.inp{
     right: 0;
     padding: 25px;
     z-index: 9999;
+    outline: none;
 }
 
 .modal-body button.close i{
@@ -699,19 +934,27 @@ form input.inp{
     background: #ed695a;
 }
 
-/* Modal Courses */
-.modal-course{
-    z-index: 99999;
+.btn-modal{
+    background: linear-gradient(90deg, rgba(3,109,208,1) 0%, rgba(21,160,218,1) 35%, rgba(155,24,245,1) 100%);
+    color: #fff;
+    padding: 12px 40px;
+    text-shadow: 6px 6px 10px rgb(51 51 51);
+    border-radius: 8px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    width: 100%;
+    transition: all .3s ease;
 }
 
-.modal-dialog-course{
-    max-width: 500px;
-}
 
-.modal-course .modal-body{
-    padding: 20px;
-}
-
-.modal-course .modal-title{
-    font-size: 25px;
+/* Button Hover Animaton*/
+.book-btn a:hover,
+.btn-modal:hover,
+.form-grp .submit-form:hover,
+.adrenox-btn a:hover,
+.variant-btn a:hover,
+.footer-btn a:hover{
+    background: linear-gradient(360deg, rgba(3,109,208,1) 0%, rgba(21,160,218,1) 35%, rgba(155,24,245,1) 100%);
 }
