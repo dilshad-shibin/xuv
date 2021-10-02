@@ -176,6 +176,10 @@ img {
     margin-top: -100px;
 }
 
+.hero-img{
+    display: none;
+}
+
 .hero-text .hero-logo{
     margin-bottom: 15px;
 }
@@ -287,6 +291,11 @@ form input.inp{
 .era-area{
     margin-top: 100px;
     padding-left: 40px;
+    position: relative;
+}
+
+.era-img{
+    display: none;
 }
 
 
